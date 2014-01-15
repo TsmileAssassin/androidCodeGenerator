@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/set_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/set_test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试1" />
+
+        <Button
+            android:id="@+id/set_test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试2" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/params"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/call_func"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+
+</LinearLayout>
